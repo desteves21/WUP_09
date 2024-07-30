@@ -83,6 +83,13 @@ The best two regressor models to predict weight are height and width.
 
 ### Best Two regressor model
 
+```{r}
+Perch2model=lm(Weight~Height+Width,data = Perch)
+summary.lm(Perch2model)
+```
+
+The best two regressor models used to predict weight for perch is height and weight. 
+
 
 ## Pike
 
